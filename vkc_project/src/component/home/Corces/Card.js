@@ -1,11 +1,12 @@
 import React from 'react'
-import {data} from"../carddata"
-function Cards() {
-console.log(data)
+import {data} from"./carddata"
+import "./card.css"
+function Card() {
+// console.log(data)
   return (
     <div className='a'>
 {data.map((obj)=>{ return(
-        <div className='card '>
+        <div className='card ' key={obj.id}>
           <div className='card-taitil'>
             <img src={obj.avathar}></img>
             </div>
@@ -21,4 +22,4 @@ console.log(data)
   )
 }
 
-export default Cards
+export default Card
