@@ -1,14 +1,13 @@
-import Cardgird from "./component/home/Corces/Cardgird";
-import Home from "./component/home/Home.component";
-import HomePage from "./component/home/homepage/homepage.component";
 
+import HomePage from "./component/home/homepage/homepage.component";
+import Home from "./component/home/Home.component";
+import Student from "./component/studentreview-partners/student.com";
 
 
 function App() {
   return (
-    <div className="">
-  
-<HomePage/>
+    <div >
+  <HomePage/>
     </div>
   );
 }

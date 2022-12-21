@@ -15,7 +15,7 @@ function HomeFirstSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    // autoplay: true,
+    autoplay: true,
     speed: 300,
     autoplaySpeed: 2000,
     cssEase: "linear",
