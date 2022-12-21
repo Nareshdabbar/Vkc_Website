@@ -1,0 +1,53 @@
+.logoscroll{
+    width:100px;
+    height: 100px;
+    
+  }
+  .logo-mar-pad{
+    margin: 40px;
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    
+  }
+  /* .row{
+    background-color: aqua;
+  } */
+  .heading{
+  text-align: center;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 576px){
+    .logoscroll{
+        width:70px;
+        height: 70px;
+        margin: 10px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px){
+    .logoscroll{
+        width:80px;
+        height: 80px;
+        
+        /* padding: 50px; */
+       
+    }
+ 
+  }
+  @media screen and (min-width: 769px) and (max-width: 992px){
+  
+   
+    .logoscroll{
+        width:80px;
+        height: 80px;
+    }
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px){
+    .logoscroll{
+        width:80px;
+        height: 80px;
+    }
+  }
+  
