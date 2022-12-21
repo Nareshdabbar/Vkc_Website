@@ -1,3 +1,4 @@
+import Cardgird from "./component/home/Corces/Cardgird";
 import Home from "./component/home/Home.component";
 
 
@@ -7,6 +8,7 @@ function App() {
     <div className="">
 
 <Home/>
+<Cardgird/>
     </div>
   );
 }
