@@ -14,15 +14,10 @@ function HomeFirstSlider() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    initialSlide: 0,
+    // initialSlide: 0,
     autoplay: true,
-<<<<<<< HEAD:vkc_project/src/component/home/mainSlider/Slider.component.js
-    speed: 3000,
-    autoplaySpeed: 5000,
-=======
-    speed: 300,
-    autoplaySpeed: 2000,
->>>>>>> 671a10e12784c177b957e64911fd6b1e1a80b0c7:vkc_project/src/component/home/slider/slider/Slider.component.js
+    speed: 6000,
+    autoplaySpeed: 4000,
     cssEase: "linear",
 
     responsive: [

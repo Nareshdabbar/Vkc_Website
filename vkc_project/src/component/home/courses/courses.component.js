@@ -7,7 +7,7 @@ function Courses() {
     useEffect(() => { setCourse(courses) }, [])
     return (
         <>
-        <div className="bg-info d-flex flex-wrap justify-content-md-around justify-content-lg-center justify-content-center">
+        <div className="d-flex flex-wrap justify-content-md-around justify-content-lg-center justify-content-center">
             {course && course.map((item, index) => {
                 return (
                     

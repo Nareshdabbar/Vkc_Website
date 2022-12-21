@@ -28,6 +28,7 @@
         font-size:1rem;
         padding: 0% 0% 0% 5%;
         /* margin: 2%; */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 .title{
     background: linear-gradient(rgb(77, 82, 148), rgb(113, 163, 64) );
@@ -46,7 +47,8 @@ color: whitesmoke;
         padding: 10px;
     }
     .s-desc {
-        font-size:1.4rem;
+        font-size:1.2rem;
+        font-family: 'Times New Roman', Times, serif;
         padding: 0% 0% 0% 4%;
         margin: 0% 0% 10% 0%;
     }

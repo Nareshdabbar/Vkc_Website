@@ -45,7 +45,7 @@ function Student() {
       };
 
   return (
-    <div>
+    <div className='overflow-hidden'>
     <div className='entirediv'>
  
       <h2 className='card-heading'>What Our Students Say</h2>
