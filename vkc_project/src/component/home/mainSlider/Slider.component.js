@@ -15,7 +15,7 @@ function HomeFirstSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    // autoplay: true,
+    autoplay: true,
     speed: 3000,
     autoplaySpeed: 5000,
     cssEase: "linear",
@@ -50,7 +50,7 @@ function HomeFirstSlider() {
 
   return (
     <>
-      <Slider {...settings} className="">
+      <Slider {...settings} className="d-flex overflow-hidden">
         {sliderImg.map((item, id) => {
           return (
             <>

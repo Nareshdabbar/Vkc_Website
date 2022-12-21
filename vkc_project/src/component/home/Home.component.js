@@ -1,10 +1,12 @@
 import React from 'react'
-import HomeFirstSlider from './slider/Slider.component'
+import Courses from './courses/courses.component'
+import HomeFirstSlider from './mainSlider/Slider.component'
 
 function Home() {
   return (
     <div>
-      <HomeFirstSlider/>
+      {/* <HomeFirstSlider/> */}
+      <Courses/>
     </div>
   )
 }
