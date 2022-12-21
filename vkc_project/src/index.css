@@ -3,16 +3,3 @@
   margin: 0%;
   box-sizing: border-box;
 }
-.logo{
-  /* background-image: radial-gradient(rgb(15, 15, 15), rgb(38, 40, 47) ,rgb(239, 129, 129) ); */
-  font-family:fantasy;
-  font-family: monospace;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* font-size:2.3rem; */
-  color: rgb(117, 117, 236);
-  text-shadow: 2px 5px 2px rgb(13, 13, 13), -2px -5px 2px rgb(13, 13, 13);
-  border-radius: 5%;
-  padding: 10px;
-  text-transform: uppercase;
-  justify-content: center;
-}

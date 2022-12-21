@@ -15,8 +15,8 @@ function HomeFirstSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    autoplay: true,
-    speed: 2000,
+    // autoplay: true,
+    speed: 3000,
     autoplaySpeed: 5000,
     cssEase: "linear",
 
@@ -50,32 +50,25 @@ function HomeFirstSlider() {
 
   return (
     <>
-      <div className=" b">
-
-        <Slider {...settings} className="">
-          {sliderImg.map((item, id) => {
-            return (
-
-              <div key={id} className="bg-light" >
-                <div className="row">
-                  <div className="  col-sm-12 col-md-6   col-lg-5">
-                    <div className="col-lg-10">
-                      <h1 className="title" >{item.title}</h1>
-                      <h3 className="s-title">{item.subTitle}</h3>
-                      <p className="s-desc">{item.descrption}</p>
-                      <a href={item.link} target="_blank" type="button" className="btn btn-primary a">Go <BsArrowRight /> </a>
-                    </div>
-                  </div>
-                  <div className=" d-flex justify-content-center bg-dark col-sm-12 col-md-5 col-lg-6 ">
-                    <img src={item.img} className="img-fluid img1"   ></img>
-                  </div>
-                </div>
+      <Slider {...settings} className="">
+        {sliderImg.map((item, id) => {
+          return (
+            <>
+            <div key={id} className="row container-slider" >
+              <div className="col-sm-10 col-md-6  col-lg-5 text-center">
+                <h1 className="title" >{item.title}</h1>
+                <p className="s-desc text-start">{item.descrption}</p>
+                <a href={item.link} target="_blank" type="button" className="btn btn-primary ">Go <BsArrowRight /> </a>
               </div>
+              <div className="col-sm-12 col-md-5 col-lg-6 d-flex justify-content-center align-items-center">
+                <img src={item.img} className="img-slider" width="90%" ></img>
+              </div>
+            </div>
 
-            )
-          })}
-        </Slider>
-      </div>
+            </>
+          )
+        })}
+      </Slider>
 
     </>
   )
