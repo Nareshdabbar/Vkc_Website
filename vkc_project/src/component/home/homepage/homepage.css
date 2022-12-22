@@ -1,4 +1,21 @@
-
+.popup
+{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) scale(1);
+    width:50%;
+    z-index: 999;
+}
+.w-200
+{
+    width: 800px;
+    height: 90vh;
+}
+.float-right
+{
+    float: right;
+}
 .glow {
     font-size: 1rem;
     color: rgb(250, 9, 9);
@@ -28,11 +45,17 @@
     }
   }
   a:hover {
-    color: rgb(38, 0, 255);
+    color: rgb(5, 155, 142);
     background-color: transparent;
     text-decoration: none;
   }
   a:link {
+    color: rgb(249, 243, 243);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:#f8f9fa;
     background-color: transparent;
     text-decoration: none;
   }
@@ -95,4 +118,26 @@
   flex-direction: row;
   background-color: lightgray;
   justify-content: space-around;
+}
+.s-disp
+{
+  margin-top: 10px;
+}
+.speciality-popup
+{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:50%;
+    z-index: 999;
+}
+.w-600
+{
+    width: 600px;
+    height: 80vh;
+}
+.float-right
+{
+    float: right;
 }
