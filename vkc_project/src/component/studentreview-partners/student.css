@@ -1,95 +1,42 @@
-.entirediv{
-    background-color:rgb(236, 232, 232);
-    /* display: flex; */
-    /* margin:10px; */
-    padding: 10px; 
-    /* align-content: space-between; */
-  
- 
+ .entirediv{
+    background-color:rgb(236, 232, 232); 
+    height: 600px;
     
 }
-.sec-div{
-   
-      margin:10px;  
-     padding: 10px;   
 
-}
-.card{
-    width:350px;
-    height: 350px;
-    margin:10px;
-    background-color:white;
-   
-}
 .card:hover  .stdimg{
     border: 2px solid rgb(233, 51, 209) ;
     
 }
-.stdimg{
-    width:55px;
-    height: 55px;
-    border-radius: 30px;
-
-}
-/* .stdimg:hover{
-    border: 2px solid rgb(211, 21, 21) ;
-} */
-.img-name{
-    display: flex;
-    align-items: center;
-    margin: 15px;
-     gap:10px;
-     color: rgba(13, 13, 216, 0.74);
+@media screen and  (min-width: 1px) and (max-width: 576px){
    
-}
-.icon{
-    color: red;
-    margin: 2px;
-   
-}
-.card-bottom{
-    margin: 20px;
-}
-.card-heading{
-    text-align: center;
-    font-size: 40px;
-    color: #ad4e45;
-
-    /* color: rgb(40, 55, 97); */
-  
-
-}
-@media screen and (min-width: 1px) and (max-width: 576px){
-  
     .card{
-        width:200px;
-        height: 500px;
-        /* background-color: aqua; */
+        width:280px;
+        height: 350PX;
+       /* background-color: rgb(187, 206, 206); */
+    
     }
+ 
     .stdimg{
         width: 45px;
         height: 45px;
     }
     .card-heading{
         font-size: 25px;
+
          }
          .profile-name{
             font-size: 18px;
+          
         }
 
 }
 @media screen and (min-width: 577px) and (max-width: 768px){
-    .entirediv{
-        /* height: 750px; */
-        padding: 80px;   
-    }
+  
    
     .card{
-        width:200px;
-        height: 500px;
-        /* background-color: rgb(224, 198, 198); */
-        /* margin-left: 30px; */
-       
+        width:250px;
+        /* background-color: rgb(224, 198, 198);     */
        
     }
     .stdimg{
@@ -106,12 +53,9 @@
 @media screen and (min-width: 769px) and (max-width: 992px){
     .card{
         width:300px;
-       /* background-color: rgb(119, 119, 235);    */
+       /* background-color: rgb(136, 136, 182);    */
     }
-    .entirediv{
-        padding: 50px;
-        margin-left: 30px;
-    }
+   
     .profile-name{
         font-size: 20px;
     }
@@ -124,12 +68,9 @@
 @media screen and (min-width: 993px) and (max-width: 1200px){
     .card{
         width:300px;
-        /* background-color: pink; */
+        /* background-color: rgb(240, 184, 193); */
     }
-    .entirediv{
-        padding: 50px;
-        margin-left: 20px;
-    }
+  
     .profile-name{
         font-size: 25px;
     }

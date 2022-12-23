@@ -28,7 +28,7 @@ function Student() {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 1,
               initialSlide: 1
             }
@@ -36,8 +36,7 @@ function Student() {
           {
             breakpoint: 480,
             settings: {
-              className:"smallscreen",
-              slidesToShow: 1,
+            slidesToShow: 1,
               slidesToScroll: 1
             }
           }
@@ -45,36 +44,35 @@ function Student() {
       };
 
   return (
-    <div>
+    <div >
     <div className='entirediv'>
  
-      <h2 className='card-heading'>What Our Students Say</h2>
-    <Slider {...settings}>
+      <h2 className='card-heading text-center p-4 text-muted'>What Our Students Say</h2>
+    <Slider {...settings} >
    
         {
-            info.map((obj)=>{
+            info.map((obj,index)=>{
                 return(
                     
-
-                      <div className="sec-div">
+                      <div key={index} className="sec-div d-flex justify-content-center p-3">
     
-                           <div className="card">
+                           <div className="card " style={{width:"20rem"}}>
                               <div className="card-top">
-                                <div className="img-name">
-                              <img  className="stdimg" src={obj.avatar}></img>
-                                <h3 className='profile-name'>{obj.name}</h3>
+                                <div className="img-name d-flex align-items-center mt-1 p-1">
+                              <img  width="60px" height="60px"  className=" m-2 stdimg rounded-circle" src={obj.avatar}></img>
+                                <h3 className='profile-name text-info'>{obj.name}</h3>
                                 </div>
                                  </div>
                             <div className="card-body">
                             <span>"{obj.review}"</span>
                                 </div>
-                         <div className="card-bottom">
+                         <div className="card-bottom text-danger p-3">
                            
-                         < TfiStar className="icon"/>
-                         < TfiStar className="icon"/>
-                         < TfiStar className="icon"/>
-                         < TfiStar className="icon"/>
-                         < TfiStar className="icon"/>
+                         < TfiStar className='m-1'/>
+                         < TfiStar className='m-1'/>
+                         < TfiStar className='m-1'/>
+                         < TfiStar className='m-1'/>
+                         < TfiStar className='m-1'/>
                          </div>
                             </div>
 
