@@ -47,7 +47,7 @@ function Student() {
     <div >
     <div className='entirediv'>
  
-      <h2 className='card-heading text-center p-4 text-muted'>What Our Students Say</h2>
+      <h2 className='card-heading text-center p-4 '>What Our Students Say</h2>
     <Slider {...settings} >
    
         {
