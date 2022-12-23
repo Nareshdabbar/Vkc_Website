@@ -1,0 +1,143 @@
+.popup
+{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) scale(1);
+    width:50%;
+    z-index: 999;
+}
+.w-200
+{
+    width: 800px;
+    height: 90vh;
+}
+.float-right
+{
+    float: right;
+}
+.glow {
+    font-size: 1rem;
+    color: rgb(250, 9, 9);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-top: 5px;
+  }
+  .top-button
+  {
+    position: relative;
+    height: 35px;
+    border: 2px solid blue;
+  }
+  .top-button:hover
+  {
+    background-color: blue;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px #fff, 0 0 20px #e61b00, 0 0 40px #e61b00, 0 0 40px #e61b00, 0 0 20px #e61300, 0 0 20px #f70909, 0 0 20px #e61300;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 3px #ff4da6, 0 0 40px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6;
+    }
+  }
+  a:hover {
+    color: rgb(5, 155, 142);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:link {
+    color: rgb(249, 243, 243);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:#f8f9fa;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .rev
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (max-width: 576px) {
+    
+    .glow {
+      font-size: 1rem;
+      color: rgb(250, 9, 9);
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+      }
+  .rev{
+        display: flex;
+        flex-direction: row;
+        background-color: lightgray;
+        justify-content: space-around;
+      }
+      
+  
+}
+@media screen and (min-width: 1439px) {
+.glow {
+  font-size: 1rem;
+  color: rgb(250, 9, 9);
+  text-align: right;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-align: center;
+
+}
+.rev{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  justify-content: space-around;
+}
+
+} 
+@media screen and (min-width: 1440px) {
+ 
+.glow {
+  font-size: 1rem;
+  color: rgb(250, 9, 9);
+  text-align: right;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+} 
+.rev{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  justify-content: space-around;
+}
+.s-disp
+{
+  margin-top: 10px;
+}
+.speciality-popup
+{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:50%;
+    z-index: 999;
+}
+.w-600
+{
+    width: 600px;
+    height: 80vh;
+}
+.float-right
+{
+    float: right;
+}

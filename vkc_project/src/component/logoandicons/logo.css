@@ -1,0 +1,49 @@
+.social-media-icon{
+ font-size: 2.5rem;
+ margin-right: 200px;
+}
+
+.s-display
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #337ab7
+}
+.logo
+{
+    width: 250px;
+    height: 100px;
+}
+#s-font
+{
+  display: flex;
+  color: lightgoldenrodyellow;
+  margin-top: 30px;
+  margin-left: 500px;
+  font-style: italic;
+
+}
+
+@media only screen and (max-width: 765px) and (min-width: 300px) {
+.logo
+{
+    width: 100px;
+    height: 70px;
+}
+#s-font
+{
+  color: blanchedalmond;
+  margin-top: 20px;
+  font-size: 1rem;
+  margin-left: 50px;
+  font-style: italic;
+  
+}
+.social-media-icon{
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+ }
+}

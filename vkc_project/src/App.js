@@ -1,19 +1,12 @@
-
+import HomePage from "./component/home/homepage/homepage.component";
 import Home from "./component/home/Home.component";
-// import NavbarHeader from "./component/navbar/Navbar.component";
 import Student from "./component/studentreview-partners/student.com";
-
-
+import LogoComponent from "./component/logoandicons/logo.component";
 function App() {
   return (
-    <div className="">
-
-<Home/>
-<br></br>
-<Student></Student>
-
-
-
+    <div >
+  <HomePage/>
+  <Student/>
     </div>
   );
 }

@@ -49,7 +49,7 @@ export function Logo(){
           {
             breakpoint: 480,
             settings: {
-                className:"logo-smsn",
+              className:"logo-smsn",
               slidesToShow: 3,
               slidesToScroll: 1,
               infinite: true
