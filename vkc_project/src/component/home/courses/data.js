@@ -23,28 +23,28 @@ export const courses = [
         duration :"Duration : 2 months",
         price: "Price : 22999rs"
     },
-    {
-        id:1,
-        img:"../images/courses/react.png",
-        duration :"Duration : 2 months",
-        price: "Price : 22999rs"
-    },
-    {
-        id:1,
-        img:"../images/courses/react.png",
-        duration :"Duration : 2 months",
-        price: "Price : 22999rs"
-    },
-    {
-        id:1,
-        img:"../images/courses/react.png",
-        duration :"Duration : 2 months",
-        price: "Price : 22999rs"
-    },
-    {
-        id:1,
-        img:"../images/courses/react.png",
-        duration :"Duration : 2 months",
-        price: "Price : 22999rs"
-    }
+    // {
+    //     id:1,
+    //     img:"../images/courses/react.png",
+    //     duration :"Duration : 2 months",
+    //     price: "Price : 22999rs"
+    // },
+    // {
+    //     id:1,
+    //     img:"../images/courses/react.png",
+    //     duration :"Duration : 2 months",
+    //     price: "Price : 22999rs"
+    // },
+    // {
+    //     id:1,
+    //     img:"../images/courses/react.png",
+    //     duration :"Duration : 2 months",
+    //     price: "Price : 22999rs"
+    // },
+    // {
+    //     id:1,
+    //     img:"../images/courses/react.png",
+    //     duration :"Duration : 2 months",
+    //     price: "Price : 22999rs"
+    // }
 ]

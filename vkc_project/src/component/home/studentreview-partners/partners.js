@@ -62,9 +62,9 @@ export function Logo(){
             <h2 className="heading">our partners</h2>
             <div className="col">
           <Slider {...settings}>
-          {logo.map((item)=>{
+          {logo.map((item, index)=>{
     return(
-        <div>
+        <div key={index}>
       <div className="logo-card1"> 
           <img className="logoscroll" src={item.logo}></img>
         </div> 

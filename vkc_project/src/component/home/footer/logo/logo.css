@@ -1,0 +1,51 @@
+body {
+    /* Metal by Etienne Martin. https://unsplash.com/photos/v6uiP2MD6vs */
+    /* --metal-tex: url(https://cdn.xxl.thumbs.canstockphoto.com/image-of-golden-christmas-lights-and-stars-background-pictures_csp7628548.jpg); */
+ 
+    --metal-tex: url(https://png.pngtree.com/thumb_back/fh260/background/20211009/pngtree-matrix-digital-code-hacker-background-image_908354.png);
+    --metal-tex: url(https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500374/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg)
+  }
+    
+
+  
+  .metal {
+    position: relative;
+    text-align: center;
+    top: 0%;
+    margin:0px;
+    padding: 0%;
+    color: transparent;
+    font-family: impact, sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.1em;
+    background-image: var(--metal-tex);
+  background-repeat:round;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+  
+  }
+  
+  .texture,
+  .texture::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+    
+  .texture {
+    background-image: linear-gradient(to top,  rgb(3, 55, 138), rgb(249, 243, 243));
+    background-attachment: fixed;
+    mix-blend-mode: color-dodge;
+  }
+  
+  .texture::after {
+    content: '';
+    background-image: var(--metal-tex);
+    background-size: cover;
+    filter: saturate(1) brightness(2) contrast(1);
+    mix-blend-mode: multiply;
+  }

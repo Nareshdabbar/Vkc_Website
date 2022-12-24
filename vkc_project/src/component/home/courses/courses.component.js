@@ -6,17 +6,19 @@ function Courses() {
     const [course, setCourse] = useState([])
     useEffect(() => { setCourse(courses) }, [])
     return (
-        <>
-        <div className="d-flex flex-wrap justify-content-md-around justify-content-lg-center justify-content-center">
+        <div className="bg-light">
+        <h1 className="text-center">Explore Our Courses</h1>
+        <div className=" d-flex flex-wrap justify-content-md-around justify-content-lg-center justify-content-center">
+            
             {course && course.map((item, index) => {
                 return (
                     
                     <div key={index} className="card m-2 col-12" style={{ width: "18rem", height:"350px" }} >
                         <img src={item.img} className="" height="150px" width="100%" />
-                        <div class="card-body">
-                            <p class="card-text">{item.duration}</p>
+                        <div className="card-body">
+                            <p className="card-text">{item.duration}</p>
                             <p>{item.price}</p>
-                            <a href="#" class="btn btn-primary"><MdPreview/> Preview</a>
+                            <a href="#" className="btn btn-primary bg-dark"><MdPreview/> Preview</a>
                         </div>
                     </div>
                 
@@ -27,7 +29,7 @@ function Courses() {
 
 
 </div>
-        </>
+        </div>
     )
 }
 

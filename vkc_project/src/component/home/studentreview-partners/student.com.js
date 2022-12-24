@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from "./partners";
-import "./student.css";
+// import "./student.css";
 import {   TfiStar } from 'react-icons/tfi';
 import {info} from "./info.com";
 import Slider from 'react-slick';
@@ -48,20 +48,23 @@ function Student() {
     <div className='overflow-hidden'>
     <div className='entirediv'>
  
-      <h2 className='card-heading'>What Our Students Say</h2>
+      <h2 className='card-heading '>What Our Students Say</h2>
     <Slider {...settings}>
    
         {
-            info.map((obj)=>{
+            info.map((obj, index)=>{
                 return(
                     
 
-                      <div className="sec-div">
+
+                  
+
+                      <div key={index} className="sec-div d-flex justify-content-center">
     
-                           <div className="card">
+                           <div className="card" style={{width:"20rem"}}>
                               <div className="card-top">
                                 <div className="img-name">
-                              <img  className="stdimg" src={obj.avatar}></img>
+                              <img  className="stdimg" src={obj.avatar} width="80px" ></img>
                                 <h3 className='profile-name'>{obj.name}</h3>
                                 </div>
                                  </div>

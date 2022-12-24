@@ -50,10 +50,10 @@ function HomeFirstSlider() {
 
   return (
     <>
-      <Slider {...settings} className="d-flex overflow-hidden">
+      <Slider {...settings} className="d-flex overflow-hidden m-4">
         {sliderImg.map((item, id) => {
           return (
-            <>
+            < >
             <div key={id} className="row container-slider" >
               <div className="col-sm-10 col-md-6  col-lg-5 text-center">
                 <h1 className="title" >{item.title}</h1>

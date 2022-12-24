@@ -1,6 +1,8 @@
 
+import HomePage from "./component/home/homepage/homepage.component";
 import Home from "./component/home/Home.component";
-
+import Logo from "./component/home/footer/logo/Logo";
+import Slides from "./component/slides/slides.component";
 
 
 
@@ -9,7 +11,7 @@ function App() {
     <div className="">
 
 <Home/>
-
+{/* <Slides/> */}
     </div>
   );
 }

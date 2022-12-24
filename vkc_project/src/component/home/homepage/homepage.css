@@ -1,0 +1,98 @@
+
+.glow {
+    font-size: 1rem;
+    color: rgb(250, 9, 9);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-top: 5px;
+  }
+  .top-button
+  {
+    position: relative;
+    height: 35px;
+    border: 2px solid blue;
+  }
+  .top-button:hover
+  {
+    background-color: blue;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px #fff, 0 0 20px #e61b00, 0 0 40px #e61b00, 0 0 40px #e61b00, 0 0 20px #e61300, 0 0 20px #f70909, 0 0 20px #e61300;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 3px #ff4da6, 0 0 40px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6;
+    }
+  }
+  a:hover {
+    color: rgb(38, 0, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .rev
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (max-width: 576px) {
+    
+    .glow {
+      font-size: 1rem;
+      color: rgb(250, 9, 9);
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+      }
+  .rev{
+        display: flex;
+        flex-direction: row;
+        background-color: lightgray;
+        justify-content: space-around;
+      }
+      
+  
+}
+@media screen and (min-width: 1439px) {
+.glow {
+  font-size: 1rem;
+  color: rgb(250, 9, 9);
+  text-align: right;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-align: center;
+
+}
+.rev{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  justify-content: space-around;
+}
+
+} 
+@media screen and (min-width: 1440px) {
+ 
+.glow {
+  font-size: 1rem;
+  color: rgb(250, 9, 9);
+  text-align: right;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+} 
+.rev{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  justify-content: space-around;
+}
