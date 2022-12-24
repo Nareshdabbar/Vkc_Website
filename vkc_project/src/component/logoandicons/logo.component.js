@@ -1,7 +1,7 @@
 import React from 'react';
 import vkclogo from '../effects/vkc-trainings-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faFacebook,faInstagram,faTwitter,faYoutube} from '@fortawesome/free-brands-svg-icons';
+import {faFacebook,faInstagram,faTwitter,faYoutube,faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import './logo.css';
 function LogoComponent() {
   return (
@@ -15,22 +15,27 @@ function LogoComponent() {
     <div className='social-media-icon d-flex'>
         <div className='m-2'>
         <a href ="http://facebook.com">
-            <FontAwesomeIcon icon={faFacebook}/>
+            <FontAwesomeIcon id='icon4'icon={faFacebook}/>
         </a>
         </div>
         <div className='m-2'>
         <a href="http://youtube.com">
-        <FontAwesomeIcon icon={faYoutube} />
+        <FontAwesomeIcon id='icon1' icon={faYoutube} />
         </a>
         </div>
         <div className='m-2'>
         <a href="http://twitter.com">
-            <FontAwesomeIcon icon={faTwitter}/>
+            <FontAwesomeIcon id='icon2' icon={faTwitter}/>
         </a>
         </div>
         <div className='m-2'>
         <a href="http://instagram.com">
-            <FontAwesomeIcon icon={faInstagram}/>
+            <FontAwesomeIcon id='icon3' icon={faInstagram}/>
+        </a>
+        </div>
+        <div className='m-2'>
+        <a href="http://whatsapp.com">
+            <FontAwesomeIcon id='icon5' icon={faWhatsapp}/>
         </a>
         </div>
     </div>
