@@ -24,8 +24,7 @@ function Footer() {
                                         <Logo />
                                     </div>
                                     <p >
-                                        Here you can use rows and columns to organize your footer
-                                        content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit.
                                     </p>
                                 </div>
@@ -35,18 +34,18 @@ function Footer() {
 
                                 {/* <!-- Grid column --> */}
                                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                    <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
+                                    <h6 className="text-uppercase mb-4 font-weight-bold">Services</h6>
                                     <p>
-                                        <a className="text-white">MDBootstrap</a>
+                                        <a className="text-white">link-1</a>
                                     </p>
                                     <p>
-                                        <a className="text-white">MDWordPress</a>
+                                        <a className="text-white">link-2</a>
                                     </p>
                                     <p>
-                                        <a className="text-white">BrandFlow</a>
+                                        <a className="text-white">link-3</a>
                                     </p>
                                     <p>
-                                        <a className="text-white">Bootstrap Angular</a>
+                                        <a className="text-white">link-4</a>
                                     </p>
                                 </div>
                                 {/* <!-- Grid column --> */}
@@ -59,10 +58,10 @@ function Footer() {
                                 {/* <!-- Grid column --> */}
                                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                                     <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                                    <p><i className="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                                    <p><i className="fas fa-envelope mr-3"></i> info@gmail.com</p>
-                                    <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                                    <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                                    <p><i className="fas fa-home mr-3"></i> Hyderabad , Telangana</p>
+                                    <p><i className="fas fa-envelope mr-3"></i> vkc@gmail.com</p>
+                                    <p><i className="fas fa-phone mr-3"></i> + 91 7989 5397 05</p>
+                                    <p><i className="fas fa-print mr-3"></i> + 91 9999 999 999</p>
                                 </div>
                                 {/* <!-- Grid column --> */}
 

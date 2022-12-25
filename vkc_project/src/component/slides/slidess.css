@@ -58,7 +58,7 @@
     background: linear-gradient(to top, rgba(206, 183, 183, 0.4), transparent);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:769px) {
 
     .slide-img {
      height: 80vmin;
@@ -66,7 +66,7 @@
 
     .child-title {
         font-size: 1.1rem;
-        transform: translate(-50%, -20%)
+        transform: translate(-50%, -10%)
     }
 
     .duration {
@@ -83,6 +83,6 @@
     }
     .trainer{
         background: linear-gradient(to top, rgba(210, 200, 200, 0.9), transparent);
-
+font-size: 0.8rem;
     }
 }

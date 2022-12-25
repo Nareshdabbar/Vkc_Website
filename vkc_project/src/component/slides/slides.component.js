@@ -12,7 +12,7 @@ function Slides() {
         dots: true,
         infinite: true,
         speed: 500,
-        // autoplay:true,
+        autoplay:true,
         slidesToShow: 2,
         slidesToScroll: 1,
         initialSlide: 1,

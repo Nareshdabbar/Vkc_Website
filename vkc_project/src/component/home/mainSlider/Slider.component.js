@@ -14,9 +14,9 @@ function HomeFirstSlider() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // initialSlide: 0,
+    initialSlide: 0,
     autoplay: true,
-    speed: 6000,
+    speed: 1000,
     autoplaySpeed: 4000,
     cssEase: "linear",
 
@@ -50,26 +50,29 @@ function HomeFirstSlider() {
 
   return (
     <>
-      <Slider {...settings} className="d-flex overflow-hidden m-4">
+    <div className="">
+      <Slider {...settings} className=" overflow-hidden mt-2">
         {sliderImg.map((item, id) => {
           return (
-            < >
-            <div key={id} className="row container-slider" >
-              <div className="col-sm-10 col-md-6  col-lg-5 text-center">
-                <h1 className="title" >{item.title}</h1>
-                <p className="s-desc text-start">{item.descrption}</p>
-                <a href={item.link} target="_blank" type="button" className="btn btn-primary ">Go <BsArrowRight /> </a>
+      <div key={id}>
+            <div className="container-slider" >
+            <div className="img-slider">
+                <img src={item.img} />
               </div>
-              <div className="col-sm-12 col-md-5 col-lg-6 d-flex justify-content-center align-items-center">
-                <img src={item.img} className="img-slider" width="90%" ></img>
+              <div className="slides-content">
+                <h1 className="title">{item.title}</h1>
+                <p className="s-desc">{item.descrption}</p>
+                <a href={item.link} target="_blank" type="button" className="btn btn-primary mb-3">Go <BsArrowRight /> </a>
               </div>
+            
             </div>
 
-            </>
+            </div>  
           )
         })}
       </Slider>
 
+    </div>
     </>
   )
 }

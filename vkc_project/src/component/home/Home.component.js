@@ -1,4 +1,5 @@
 import React from 'react'
+import Slides from '../slides/slides.component';
 import Courses from './courses/courses.component'
 import Featurs from './features/featurs.component'
 import Footer from './footer/footer.component';
@@ -11,6 +12,7 @@ function Home() {
     <div>
       <HomePage/>
       <HomeFirstSlider/>
+      <Slides/>
       <Courses/>
       <Featurs/>
      <Student/>

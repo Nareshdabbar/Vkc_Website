@@ -1,4 +1,21 @@
-
+.popup
+{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) scale(1);
+    width:70%;
+    z-index: 1;
+}
+.w-200
+{
+    width: 800px;
+    height: 90vh;
+}
+.float-right
+{
+    float: right;
+}
 .glow {
     font-size: 1rem;
     color: rgb(250, 9, 9);
@@ -28,11 +45,17 @@
     }
   }
   a:hover {
-    color: rgb(38, 0, 255);
+    color: rgb(5, 155, 142);
     background-color: transparent;
     text-decoration: none;
   }
   a:link {
+    color: rgb(249, 243, 243);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:#f8f9fa;
     background-color: transparent;
     text-decoration: none;
   }
@@ -41,10 +64,38 @@
     display: flex;
     flex-direction: row;
   }
+  .rev{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    justify-content: space-around;
+  }
+  .s-disp
+  {
+    margin-top: 10px;
+  }
+  .speciality-popup
+  {
+      position:fixed;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%);
+      width:50%;
+      z-index: 999;
+  }
+  .w-600
+  {
+      width: 600px;
+      height: 80vh;
+  }
+  .float-right
+  {
+      float: right;
+  }
   @media screen and (max-width: 576px) {
     
     .glow {
-      font-size: 1rem;
+      font-size: 0.6rem;
       color: rgb(250, 9, 9);
       text-align: center;
       -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -57,7 +108,12 @@
         background-color: lightgray;
         justify-content: space-around;
       }
-      
+      .popup{
+        width: 90%;
+      }
+      .top-button{
+        font-size: 0.6rem;
+      }
   
 }
 @media screen and (min-width: 1439px) {
@@ -79,20 +135,4 @@
 }
 
 } 
-@media screen and (min-width: 1440px) {
- 
-.glow {
-  font-size: 1rem;
-  color: rgb(250, 9, 9);
-  text-align: right;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-} 
-.rev{
-  display: flex;
-  flex-direction: row;
-  background-color: lightgray;
-  justify-content: space-around;
-}
+
