@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(25, 21, 246);
+    background-color: rgb(14, 10, 97);
     height: 100%;
 
 }
@@ -31,6 +31,7 @@
     color: whitesmoke;
     letter-spacing: 3px;
     word-spacing: 5px;
+    font-weight: 900;
 }
 
 .slides-content a{
@@ -39,7 +40,7 @@
 
 @media only screen and (max-width: 765px) and (min-width: 300px) {
     .container-slider {
-      height: 80vmax;
+      height: 50vmax;
     }
 
     .img-slider {
@@ -73,9 +74,11 @@
         text-shadow: 2px 3px 5px wheat;
     }
     .slides-content p{
-        color: whitesmoke;
+        color: rgb(253, 251, 250) ;
         text-shadow: 2px 3px 5px wheat;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.5rem;
+      
     }
     .s-desc {
         font-size: 1.3rem;
