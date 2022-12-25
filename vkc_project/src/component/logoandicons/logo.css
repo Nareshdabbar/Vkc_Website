@@ -102,16 +102,60 @@
 #s-font
 {
   color: blanchedalmond;
-  margin-top: 20px;
-  font-size: 1rem;
-  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 0.4rem;
+  margin-left: 20px;
   font-style: italic;
   
 }
 .social-media-icon{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
-  margin-left: 50px;
+  margin-left: 15px;
   margin-top: 20px;
  }
 }
+@media only screen and (max-width: 1023px) and (min-width: 765px) {
+  .logo
+  {
+      width: 100px;
+      height: 70px;
+  }
+  #s-font
+  {
+    color: blanchedalmond;
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-left: 20px;
+    font-style: italic;
+    
+  }
+  .social-media-icon{
+    font-size: 2rem;
+    color: white;
+    margin-left: 15px;
+    margin-top: 8px;
+   }
+  }
+  @media only screen and (max-width: 1439px) and (min-width: 1023px) {
+    .logo
+    {
+        width: 100px;
+        height: 70px;
+    }
+    #s-font
+    {
+      color: blanchedalmond;
+      margin-top: 30px;
+      font-size: 1rem;
+      margin-left: 200px;
+      font-style: italic;
+      
+    }
+    .social-media-icon{
+      font-size: 2rem;
+      color: white;
+      margin-left: 15px;
+      margin-top: 8px;
+     }
+    }

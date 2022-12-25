@@ -15,13 +15,13 @@ function LogoComponent() {
     <div className='social-media-icon d-flex'>
         <div className='m-2'>
         <a href ="http://facebook.com">
-            <FontAwesomeIcon id='icon4'icon={faFacebook}/>
+            <FontAwesomeIcon id='icon4' icon={faFacebook}/>
         </a>
         </div>
         <div className='m-2'>
-        <a href="http://youtube.com">
-        <FontAwesomeIcon id='icon1' icon={faYoutube} />
-        </a>
+            <a href="http://youtube.com">
+                <FontAwesomeIcon id='icon1' icon={faYoutube} />
+            </a>
         </div>
         <div className='m-2'>
         <a href="http://twitter.com">
@@ -29,9 +29,9 @@ function LogoComponent() {
         </a>
         </div>
         <div className='m-2'>
-        <a href="http://instagram.com">
-            <FontAwesomeIcon id='icon3' icon={faInstagram}/>
-        </a>
+            <a href="http://instagram.com">
+                <FontAwesomeIcon id='icon3' icon={faInstagram}/>
+            </a>
         </div>
         <div className='m-2'>
         <a href="http://whatsapp.com">

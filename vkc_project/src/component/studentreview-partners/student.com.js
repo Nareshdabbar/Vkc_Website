@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from "./partners";
-import "./student.css";
+// import "./student.css";
 import {   TfiStar } from 'react-icons/tfi';
 import {info} from "./info.com";
 import Slider from 'react-slick';

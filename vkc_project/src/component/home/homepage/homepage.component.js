@@ -2,6 +2,7 @@ import LogoComponent from '../../logoandicons/logo.component';
 import './homepage.css';
 import { useState } from 'react';
 import {FcGoogle} from 'react-icons/fc';
+import BasicExample from '../../navbar/layout';
 function HomePage()
 {
     const[popupVisible,setpopupVisible]=useState("hidden");
@@ -27,7 +28,7 @@ function HomePage()
            <LogoComponent/>
        </div>
        <div className="popup" style={{'visibility':popupVisible}}>
-                    <div className="card w-200">
+                    <div className="card">
                         <div className="card-header">
                             <span className="text-success">
                                LOGIN DETAILS
