@@ -26,11 +26,6 @@ function LogoComponent() {
             </a>
         </div>
         <div className='m-2'>
-
-     
-        <a href="http://youtube.com">
-        <FontAwesomeIcon icon={faYoutube} />
-        </a>
       <a href="http://twitter.com">
             <FontAwesomeIcon id='icon2' icon={faTwitter}/>
         </a>
@@ -45,11 +40,6 @@ function LogoComponent() {
         <a href="http://whatsapp.com">
             <FontAwesomeIcon id='icon5' icon={faWhatsapp}/>
             </a>
-
-    
-        <a href="http://instagram.com">
-            <FontAwesomeIcon icon={faInstagram}/>
-        </a>
         </div>
     </div>
 </div>
