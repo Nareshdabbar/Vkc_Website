@@ -1,12 +1,18 @@
 .social-media-icon{
   display: flex;
+
   flex-direction: row;
  font-size: 2.5rem;
  margin-right: 100px;
  opacity: 0.9;
  
+  align-items: center;
+ font-size: 2.5rem;
+ margin-right: 80px;
 }
-
+.social-media-icon a{
+  margin-right: 10px;
+}
 .s-display
   {
     display: flex;
@@ -14,20 +20,16 @@
     justify-content: space-between;
     background-image: url("https://i.pinimg.com/originals/38/55/9d/38559de45f1784e2a4310747c631b19b.gif");
 }
-.logo
+.logo 
 {
     width: 250px;
     height: 100px;
     opacity: 0.8;
+    margin-left: 20px;
 }
-#s-font
-{
-  display: flex;
-  color: lightgoldenrodyellow;
-  margin-top: 30px;
-  margin-left: 500px;
-  font-style: italic;
-
+#s-font{
+  font-size: 1.5rem;
+  margin-right: 15px;
 }
 #icon1
 {
@@ -159,3 +161,23 @@
       margin-top: 8px;
      }
     }
+@media screen and (max-width:600px) {
+  .logo 
+{
+    width: 100px;
+    height: 60px;
+    margin-left: 10px;
+}
+.social-media-icon{
+  display: flex;
+  flex-direction: column;
+ font-size: 1rem;
+ margin-right: 10px;
+}
+.social-media-icon a{
+  padding-right: 5px;
+}
+#s-font{
+  font-size: 1rem;
+}
+}

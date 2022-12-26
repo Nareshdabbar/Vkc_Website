@@ -1,0 +1,41 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "img": "../images/mainslides/ReactJS.jpg",
+            "title": "React Js",
+            "duration": " 2 Months ",
+            "batch": "15 batch",
+            "date": "01-01-2023",
+            "time": "7Am- 8Am"
+        },
+        {
+            "id": 2,
+            "img": "../images/mainslides/angularJs.png",
+            "title": "Angular Js",
+            "duration": " 2 Months ",
+            "batch": "17 batch",
+            "date": "05-01-2023",
+            "time": "8Am- 9Am"
+        },
+        {
+            "id": 3,
+            "img": "../images/mainslides/python.png",
+            "title": "Python FullStack",
+            "desc": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces ...",
+            "duration": " 3 Months ",
+            "batch": "5th batch",
+            "date": "26-01-2023",
+            "time": "9Am- 10Am"
+        },
+        {
+            "id": 4,
+            "img": "../images/mainslides/dataScience1.jpg",
+            "title": "Data Science",
+            "duration": " 5 Months ",
+            "batch": "2 batch",
+            "date": "05-02-2023",
+            "time": "7Am- 8Am"
+        }
+    ]
+}

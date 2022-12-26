@@ -16,7 +16,7 @@ function HomePage()
     }
     return(
         <div>
-            <div className='rev'>
+            <div className='rev mb-2'>
                 <div>
                     <h1 className='glow'><a href="http://t.me/vkctrainings" className='t-telegram'>ClickHere to join Our Telegram Group For LatestUpdates</a></h1>
                 </div>
