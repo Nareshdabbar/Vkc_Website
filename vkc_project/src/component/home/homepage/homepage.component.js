@@ -2,7 +2,8 @@ import LogoComponent from '../../logoandicons/logo.component';
 import './homepage.css';
 import { useState } from 'react';
 import {FcGoogle} from 'react-icons/fc';
-import BasicExample from '../../navbar/layout';
+import NavBar from '../../navbar/Navbar';
+import {BrowserRouter,Routes} from 'react-router-dom';
 function HomePage()
 {
     const[popupVisible,setpopupVisible]=useState("hidden");
@@ -48,6 +49,9 @@ function HomePage()
                         </div>
                     </div>
           </div>
+          <BrowserRouter>
+          <NavBar/>
+          </BrowserRouter>
         </div>
     )
 }

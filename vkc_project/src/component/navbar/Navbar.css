@@ -1,0 +1,123 @@
+.R-Nav{
+    margin-top: 10px;
+}
+.R-NavBar
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+    background-color:#00828c;
+    color: antiquewhite;
+}
+.nav-links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+}
+.home,
+.skills,
+.about,
+.contact,
+.courses
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px,20px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.mobile-menu-icon
+{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+.nav-links{
+    display: none;
+}
+.nav-links-mobile
+{
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #005469;
+    left: 0px;
+    top: 200px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+}
+.home,
+.skills,
+.about,
+.contact,
+.courses{
+    color: white;
+    text-align: center;
+    width: 50%;
+    transition:all 0.5s ease;
+}
+.mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #005469;
+    border: none;
+    top: 158px;
+    right: 25px;
+}
+.R-NavBar{
+    height: 40px;
+    background-color:#74d8df;
+}
+}
+@media only screen and (min-width:1023px) and (max-width:1439px)
+{
+.nav-links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 80%;
+}
+.home,
+.skills,
+.about,
+.contact,
+.courses
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px,20px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.mobile-menu-icon
+{
+    display: none;
+}
+
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+
+.mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #005469;
+    border: none;
+    top: 145px;
+    right: 25px;
+}
+}

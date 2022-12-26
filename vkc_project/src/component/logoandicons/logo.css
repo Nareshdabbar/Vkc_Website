@@ -1,17 +1,14 @@
 .social-media-icon{
   display: flex;
-
   flex-direction: row;
  font-size: 2.5rem;
  margin-right: 100px;
  opacity: 0.9;
- 
-  align-items: center;
- font-size: 2.5rem;
- margin-right: 80px;
+
 }
-.social-media-icon a{
-  margin-right: 10px;
+.social-media-icon {
+  margin-top: 5px;
+  margin-left: 60px;
 }
 .s-display
   {
@@ -19,6 +16,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-image: url("https://i.pinimg.com/originals/38/55/9d/38559de45f1784e2a4310747c631b19b.gif");
+    margin-top: 40px;
 }
 .logo 
 {
@@ -29,7 +27,9 @@
 }
 #s-font{
   font-size: 1.5rem;
-  margin-right: 15px;
+  margin-left: 600px;
+  color: antiquewhite;
+  margin-top: 30px;
 }
 #icon1
 {
@@ -98,23 +98,23 @@
 @media only screen and (max-width: 765px) and (min-width: 300px) {
 .logo
 {
-    width: 100px;
-    height: 70px;
+    width: 50px;
+    height: 60px;
 }
 #s-font
 {
   color: blanchedalmond;
-  margin-top: 30px;
-  font-size: 0.4rem;
-  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 0.5rem;
+  margin-left:20px;
   font-style: italic;
   
 }
 .social-media-icon{
   font-size: 1rem;
   color: white;
-  margin-left: 15px;
-  margin-top: 20px;
+  margin-left: 40px;
+  margin-top: 5px;
  }
 }
 @media only screen and (max-width: 1023px) and (min-width: 765px) {
@@ -161,23 +161,3 @@
       margin-top: 8px;
      }
     }
-@media screen and (max-width:600px) {
-  .logo 
-{
-    width: 100px;
-    height: 60px;
-    margin-left: 10px;
-}
-.social-media-icon{
-  display: flex;
-  flex-direction: column;
- font-size: 1rem;
- margin-right: 10px;
-}
-.social-media-icon a{
-  padding-right: 5px;
-}
-#s-font{
-  font-size: 1rem;
-}
-}
