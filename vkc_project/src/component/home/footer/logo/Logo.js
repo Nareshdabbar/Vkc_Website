@@ -6,9 +6,9 @@ function Logo() {
  
  
 
-  <h5 class="metal">
+  <h5 className="metal">
     VKC
-    <span class="texture"></span>   
+    <span className="texture"></span>   
    
   </h5>
 

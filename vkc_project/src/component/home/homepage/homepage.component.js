@@ -41,7 +41,7 @@ function HomePage()
                             <input type='password' className="form-control" ></input>
                             <div>
                             <button className='btn btn-primary m-2'>Login</button>
-                            <h8>not regestered yet then registerhere</h8>
+                            <h6>not regestered yet then registerhere</h6>
                             </div>
                         </div>
                     </div>

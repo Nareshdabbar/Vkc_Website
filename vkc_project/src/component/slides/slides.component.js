@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -42,8 +42,16 @@ function Slides() {
             }
         ]
     };
+
+
+const [name, setName]= useState([])
+// fetch(image.name).then(res=>res.json()).then(res=>setName(res))
+// useEffect(()=>{setName(image.name)}, [])
+// console.log(name)
     return (
         <div className='overflow-hidden'>
+            <input/ >
+        
             <div className=''>
             <Slider {...settings} className="mb-5 mt-5" >
                 {image && image.images.map((item, index) => {
