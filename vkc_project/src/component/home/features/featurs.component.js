@@ -10,8 +10,8 @@ function Featurs() {
     return (
         <>
         <h1 className='text-center mb-2 mt-5 text-primary'>Service Highlights</h1>
-        {/* <div className="d-flex flex-wrap  justify-content-center justify-content-lg-around"> */}
-           <div className='services'>
+        <div className="d-flex flex-wrap services justify-content-center justify-content-lg-around">
+           {/* <div className='services'> */}
             {feature && feature.map((item, index) => {
                 return (
                     
