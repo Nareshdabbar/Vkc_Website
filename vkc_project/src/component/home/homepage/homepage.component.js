@@ -1,6 +1,9 @@
 import LogoComponent from '../../logoandicons/logo.component';
 import './homepage.css';
 import { useState } from 'react';
+import {FcGoogle} from 'react-icons/fc';
+import NavBar from '../navbar/Navbar';
+import {BrowserRouter,Routes} from 'react-router-dom';
 function HomePage()
 {
     const[popupVisible,setpopupVisible]=useState("hidden");
@@ -16,7 +19,7 @@ function HomePage()
         <div>
             <div className='rev mb-2'>
                 <div>
-                    <h1 className='glow'><a href="http://t.me/vkctrainings">ClickHere to join Our Telegram Group For LatestUpdates</a></h1>
+                    <h1 className='glow'><a href="http://t.me/vkctrainings" className='t-telegram'>ClickHere to join Our Telegram Group For LatestUpdates</a></h1>
                 </div>
                 <div>
                      <button className='btn btn-danger top-button' onClick={()=>{showPopup()}}>Login/Signup</button>
@@ -41,11 +44,14 @@ function HomePage()
                             <input type='password' className="form-control" ></input>
                             <div>
                             <button className='btn btn-primary m-2'>Login</button>
-                            <h6>not regestered yet then registerhere</h6>
+                            <h6>not regestered yet? then registerhere or login Using <FcGoogle style={{ width:"50px",height: "80px" }}/></h6>
                             </div>
                         </div>
                     </div>
           </div>
+          {/* <BrowserRouter>
+          <NavBar/>
+          </BrowserRouter> */}
         </div>
     )
 }

@@ -50,8 +50,6 @@ const [name, setName]= useState([])
 // console.log(name)
     return (
         <div className='overflow-hidden'>
-            <input/ >
-        
             <div className=''>
             <Slider {...settings} className="mb-5 mt-5" >
                 {image && image.images.map((item, index) => {

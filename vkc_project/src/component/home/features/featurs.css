@@ -1,3 +1,9 @@
 .courses-realtime{
-    background-image: linear-gradient(to top, red, blue);
+    background-image: linear-gradient(45deg, 
+    rgba(245,70,66, 0.75),
+    rgba(12, 205, 64, 0.75),
+    rgb(60, 60, 104), transparent
+    );
+
+ padding: 10px;
 }

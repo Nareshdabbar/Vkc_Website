@@ -9,7 +9,7 @@ function Featurs() {
     useEffect(() => { setFeature(features) }, [])
     return (
         <>
-        <h1 className='text-center mb-2 mt-5 text-primary'>Course Highlights</h1>
+        <h1 className='text-center mb-2 mt-5 text-primary'>Service Highlights</h1>
         <div className="d-flex flex-wrap  justify-content-center justify-content-lg-around">
             {feature && feature.map((item, index) => {
                 return (
@@ -17,7 +17,8 @@ function Featurs() {
                     <div key={index} className="card m-2 mb-4   " style={{ width: "30rem", height:"max-content" }} >
                        <div className='courses-realtime'>
                         {/* <img src={item.img} className="d-none d-sm-block" height="150px" width="150px" /> */}
-                            <h5 className="">{item.desc}</h5>  
+                            <h5 className="text-center bg-white">{item.title}</h5> 
+                            <p className='text-white h6'>{item.desc}</p> 
                         </div>
                     </div>
                 
