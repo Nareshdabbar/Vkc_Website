@@ -1,0 +1,106 @@
+.rev {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50% );
+  width: 60%;
+  z-index: 2;
+
+}
+
+.float-right {
+  float: right;
+
+}
+
+.glow {
+  font-size: 1rem;
+  color: rgb(250, 9, 9);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin-top: 5px;
+}
+
+.top-button {
+  background-color: red;
+  color: white;
+  margin: 2px;
+}
+
+.top-button:hover {
+  background-color: blue;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #fff, 0 0 20px #e61b00, 0 0 40px #e61b00, 0 0 40px #e61b00, 0 0 20px #e61300, 0 0 20px #f70909, 0 0 20px #e61300;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 3px #ff7f4d, 0 0 40px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6;
+  }
+}
+
+.t-telegram {
+  color: rgb(247, 248, 246);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  .glow {
+    font-size: 0.6rem;
+  }
+
+  .top-button {
+    font-size: 0.6rem;
+  }
+
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20% );
+    width: 90%;
+    box-shadow: 1px 4px 7px red,-1px -4px 7px red;
+ 
+  
+  }
+  .popup label{
+    font-size: 0.7rem;
+  }
+  .popup input {
+    height: 25px;
+  }
+  .popup h6{
+    font-size: 0.6rem;
+  }
+  .popup button{
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1439px) {
+  .glow {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+
+

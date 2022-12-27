@@ -1,9 +1,32 @@
 .courses-realtime{
-    background-image: linear-gradient(45deg, 
-    rgba(245,70,66, 0.75),
-    rgba(12, 205, 64, 0.75),
-    rgb(60, 60, 104), transparent
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient( to top,
+    /* rgba(95, 161, 113, 0.75), */
+    rgba(3, 3, 239, 0.75),
+     transparent
     );
 
  padding: 10px;
+ box-shadow: 2px 2px 9px rgb(237, 202, 202);
+
+}
+.courses-realtime h5{
+    text-shadow: 2px 3px 3px rgb(53, 115, 229);
+}
+.courses-realtime p{
+    text-shadow: 2px 3px 3px rgb(53, 115, 229);
+    font-size: 1.2rem;
+}
+.courses-realtime img{
+    position: relative;
+    max-width: 100%;
+
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: linear-gradient(45deg, rgb(166, 166, 230), rgb(99, 146, 240), transparent);
 }

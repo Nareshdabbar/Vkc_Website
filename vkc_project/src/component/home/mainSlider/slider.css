@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     height: 30vmax;
-    /* background-color: rgb(239, 229, 229); */
 }
 
 .img-slider {
@@ -11,10 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(14, 10, 97); */
     background-image: linear-gradient(45deg, rgb(117, 117, 151),rgb(143, 49, 49), rgb(60, 143, 60), rgb(114, 58, 227), transparent);
     height: 100%;
-/* background-image: radial-gradient( red, green, blue, orange,white); */
 }
 
 .img-slider img {
@@ -27,8 +24,7 @@
     position: absolute;
     text-align: center;
     width: 80vw;
-    top: 1%;
-    ;
+    top: 1%; 
     color: whitesmoke;
     letter-spacing: 3px;
     word-spacing: 5px;
@@ -39,21 +35,17 @@
     font-size: 1.2rem;
 }
 
-@media only screen and (max-width: 765px) and (min-width: 300px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
     .container-slider {
-      height: 50vmax;
-    }
-
-    .img-slider {
-        width: 100%;
+      height: 40vmax;
     }
 
     .img-slider img {
-        width: 100vw;
+        width: 95vw;
         opacity: 0.4;
     }
 
-    .title {
+    .slides-content h1 {
         background: linear-gradient(rgb(77, 82, 148), rgb(113, 163, 64), transparent);
         color: whitesmoke;
     }
@@ -63,13 +55,40 @@
         word-spacing: 0px;
     }
 
+    .slides-content p{
+        font-size: 0.6rem;
+    }
     .slides-content a {
         font-size: 1rem;
+        padding: 1%;
+    }
+}
+@media screen  and (max-width:900px) and (min-width:601px) {
+    .img-slider {
+        background-image:linear-gradient(40deg, red, yellow, transparent) ;
+    }
+    .slides-content {
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+    .slides-content p{
+        font-size: 0.8rem;
+        color: rgb(26, 14, 239);
+    }
+    .slides-content h1{
+        color: rgb(84, 121, 121);
+    }
+    .slides-content a {
+        font-size: 1rem;
+        padding: 1%;
     }
 }
 
-@media only screen and (max-width: 1500px) and (min-width:767px) {
+@media only screen and (max-width: 1500px) and (min-width:900px) {
 
+    .img-slider {
+        background-image:linear-gradient(90deg, rgb(20, 20, 20), rgb(205, 4, 61)) ;
+    }
     .slides-content h1{
         color: black;
         text-shadow: 2px 3px 5px wheat;
@@ -81,15 +100,15 @@
         font-size: 1.5rem;
       
     }
-    .s-desc {
-        font-size: 1.3rem;
-        font-family: 'Times New Roman', Times, serif;
-        /* padding: 0% 0% 0% 4%;
-        margin: 0% 0% 10% 0%; */
-    }
+  
 
     .img-slider img{
         width: 97vw;
         margin: 0px;
     }
 }
+ @media screen and (min-width:1501px) {
+    .slides-content p{
+        font-size: 2.5rem;
+    }
+ }

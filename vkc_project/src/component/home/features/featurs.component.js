@@ -10,15 +10,16 @@ function Featurs() {
     return (
         <>
         <h1 className='text-center mb-2 mt-5 text-primary'>Service Highlights</h1>
-        <div className="d-flex flex-wrap  justify-content-center justify-content-lg-around">
+        {/* <div className="d-flex flex-wrap  justify-content-center justify-content-lg-around"> */}
+           <div className='services'>
             {feature && feature.map((item, index) => {
                 return (
                     
-                    <div key={index} className="card m-2 mb-4   " style={{ width: "30rem", height:"max-content" }} >
+                    <div key={index} className="card m-2 mb-4" style={{ width: "30rem", height:"max-content" }} >
                        <div className='courses-realtime'>
-                        {/* <img src={item.img} className="d-none d-sm-block" height="150px" width="150px" /> */}
-                            <h5 className="text-center bg-white">{item.title}</h5> 
-                            <p className='text-white h6'>{item.desc}</p> 
+                            <h5 className="text-center">{item.title}</h5> 
+                        <img src={item.img} className="d-none d-sm-block" height="150px" width="" />
+                            <p className='text-white'>{item.desc}</p> 
                         </div>
                     </div>
                 

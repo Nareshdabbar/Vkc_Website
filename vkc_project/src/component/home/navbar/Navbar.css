@@ -4,8 +4,9 @@
     align-items: center;
     padding: 0px 2%;
 }
+/* navbar-fixed used in home.component */
 .navbar-fixed{
-    background-color: gainsboro;
+    background-color: rgb(35, 36, 36);
   position: sticky;
     top:0px;
     z-index: 1;
@@ -21,9 +22,10 @@ a.active{
   background-image: linear-gradient( rgb(39, 87, 218), transparent);
 }
 .navbar img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    background-color: navajowhite;
 }
 
 
@@ -31,18 +33,28 @@ a.active{
     .navbar .menu {
         position: absolute;
         left: 50%;
-        top: 40%;
-        transform: translate(-50%, 68px);
+        top: 0%;
+        transform: translate(-50%, 10%);
         z-index: 1;
         background-image: linear-gradient(45deg, rgb(79, 173, 11), rgb(225, 18, 225), transparent);
         box-shadow: 2px 3px 3px rgb(222, 227, 235);
-        width: 50vw;
+        width: 60vw;
         text-align: center;
+    }
+    .navbar-fixed{
+        background-color: rgb(123, 123, 126);
+      position: sticky;
+        top:0px;
+        z-index: 1;
     }
 
     .navbar a {
         color: white;
         font-size: 1.2rem;
         padding: 2%;
+    }
+    .navbar img {
+        width: 60px;
+        height: 60px;
     }
 }

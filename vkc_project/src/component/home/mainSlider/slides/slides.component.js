@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import image from "../slides/slides.json"
+import image from "./slides.json"
 import "./slidess.css"
 import {BiTimeFive} from "react-icons/bi";
 import {FcCalendar} from "react-icons/fc"
@@ -11,11 +11,12 @@ function Slides() {
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
-        autoplay:true,
         slidesToShow: 2,
         slidesToScroll: 1,
         initialSlide: 1,
+        autoplay:true,
+        speed: 1000,
+        cssEase: "linear",
         responsive: [
             {
                 breakpoint: 1024,

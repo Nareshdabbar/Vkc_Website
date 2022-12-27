@@ -17,7 +17,7 @@ function HomeFirstSlider() {
     initialSlide: 0,
     autoplay: true,
     speed: 1000,
-    autoplaySpeed: 4000,
+    // autoplaySpeed: 4000,
     cssEase: "linear",
 
     responsive: [
@@ -60,8 +60,8 @@ function HomeFirstSlider() {
                 <img src={item.img} />
               </div>
               <div className="slides-content">
-                <h1 className="title">{item.title}</h1>
-                <p className="s-desc">{item.descrption}</p>
+                <h1 className="">{item.title}</h1>
+                <p className="">{item.descrption}</p>
                 <a href={item.link} target="_blank" type="button" className="btn btn-primary mb-3">Go <BsArrowRight /> </a>
               </div>
             
