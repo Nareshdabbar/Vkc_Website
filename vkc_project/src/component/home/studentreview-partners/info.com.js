@@ -3,25 +3,24 @@ export let  info=[
     id:1,
     avatar:"https://st2.depositphotos.com/6672578/9743/i/450/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera.jpg",
     name:"Rajesh",
-    review:"I consider my experience at Ashoka IT to be incredibly important in my growth as a cometent professional. During my time at Ashok IT, I had the opportunity to learn through both books and practice and develop a large varity of essential technical skills.."
-  },
+    review:" The trainer is really good and explained me with many real-time examples. The institution has very good in infrastructure and also good for studying. I will surely recommend this institute if u want to improve your personal skills and knowledge"},
   {
     id:2,
     avatar:"https://www.thefashionisto.com/wp-content/uploads/2019/07/Male-Model-Businessman-Suit.jpg",
     name:"Avinish",
-    review:"I consider my experience at Ashoka IT to be incredibly important in my growth as a cometent professional. During my time at Ashok IT, I had the opportunity to learn through both books and practice and develop a large varity of essential technical skills.."
+    review:"The type of training you would prefer which may include strictly cardiovascular or strength training"
   },
   {
     id:3,
     avatar:"https://th.bing.com/th/id/R.f9b712f5887591359e1b6b04cc8770d0?rik=nGaULeJK3HoH1A&riu=http%3a%2f%2frt-uae.com%2fwp-content%2fuploads%2f2020%2f06%2fbusiness-woman1.jpg&ehk=2WWsjolqZTq1S1pKQixL%2bjhPEYhUsw7xwsQGazgPfko%3d&risl=&pid=ImgRaw&r=0",
     name:"Ramya",
-    review:"I consider my experience at Ashoka IT to be incredibly important in my growth as a cometent professional. During my time at Ashok IT, I had the opportunity to learn through both books and practice and develop a large varity of essential technical skills.."
+    review:"Thank you so much for your assistance. I sincerely appreciate your help with the project today. Thanks for helping me accomplish my goal. I wanted to express my gratitude for your training today"
   },,
   {
     id:4,
     avatar:"https://cdn.wallpapersafari.com/88/57/qeoLc7.jpg",
     name:"Jahnavi",
-    review:"I consider my experience at Ashoka IT to be incredibly important in my growth as a cometent professional. During my time at Ashok IT, I had the opportunity to learn through both books and practice and develop a large varity of essential technical skills.."
+    review:" I had the opportunity to learn through both books and practice and develop a large varity of essential technical skills.."
   }
 ]
 

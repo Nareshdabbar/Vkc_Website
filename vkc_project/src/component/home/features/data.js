@@ -17,7 +17,7 @@ export const features = [
         id:1,
         img:"../images/courses/python.jfif",
         title :"Doubts Solving Sessions",
-        desc:`Providing trainings from 6 years in different technologies. Our strategic approaches helps to build your carrier and you every day you can find the difference in your skill set growth.`
+        desc:` Our strategic approaches helps to build your carrier and you every day you can find the difference in your skill set growth.`
     },
     {
         id:1,
